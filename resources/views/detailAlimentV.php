@@ -14,7 +14,7 @@
             echo"<ul>"; 
                  foreach($uneS->sesaliments as $unA)
                     {
-                      echo "<li>".$unA->libelleAl." ==> <span class='vert gras'>"." ".$unA->stockAl.$unA->pivot->prix." €"."</span></li>";
+                      echo "<li>".$unA->libelleAl." ==> <span class='vert gras'>"." ".$unA->stockAl." -".$unA->pivot->prix." €"."</span></li>";
                     }          
              echo"</ul>";               
             ?>
